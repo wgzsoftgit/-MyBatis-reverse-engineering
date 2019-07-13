@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--typeAliases：mybatis用来定义别名标签，定义单个别名，里面可以定义多个别名
+	type:表示要定义别名的类，全类路径名
+	alias:自定义别名，任意取
+	  -->
+<typeAliases>
+
+<!-- 使用package批量进行定义别名：
+	 别名就是类名，大小写都可以 ,首字母大写-->
+<package name="ly.base.po.domain"/>
+</typeAliases>
+</configuration>
